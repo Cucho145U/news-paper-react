@@ -6,7 +6,7 @@ import Container from '@material-ui/core/Container';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import News from './components/News-paper'
-//import Clouds from './clouds'
+import Clouds from './clouds'
 import Divider from '@material-ui/core/Divider';
 
 const useStyles = makeStyles((theme) => ({
