@@ -6,7 +6,7 @@ import Container from '@material-ui/core/Container';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import News from './components/News-paper'
-import Clouds from './clouds'
+//import Clouds from './clouds'
 import Divider from '@material-ui/core/Divider';
 
 const useStyles = makeStyles((theme) => ({
@@ -44,8 +44,7 @@ export default function Blog() {
       <div className={classes.name}>
       <Typography variant="h2" component="h2" gutterBottom className={classes.as}>Nubes de Palabras</Typography>
       <Divider />
-      </div>
-      <Clouds></Clouds>
+      </div>    
       </Container>
       <Footer title="Universidad Nacional de San Antonio Abad" description="Escuela Profesional de Ing. Informática y de Sistemas" />
     </React.Fragment>
